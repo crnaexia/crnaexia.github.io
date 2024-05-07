@@ -1,503 +1,202 @@
+
 <!DOCTYPE html>
-<!--
- * Copyright statement *
- * This site template is provided free of charge by WEBJIKE
- * Official Website: http://webjike.com
- * GitHub：https://github.com/xiaodai945/webjike
--->
-<html lang="zh-cn">
-  <head>
-    <!--头部信息-->
-<meta charset="utf-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>小呆导航 &nbsp;- 可自定义的简洁网址导航</title>
-    <meta name="keywords" content="小呆导航,网址导航,前端导航,设计师导航,CG导航,工作导航,自定义导航,简洁导航,网站大全">
-    <meta name="description" content="小呆导航是一个可自定义的简洁多领域网址导航，收录了前端开发、设计师、影视后期、日常办公等领域优质网站，为广大用户提供高效率的上网导航服务。">
-<!-- zui -->
-<link rel="shortcut icon"  type="image/x-icon" href="/favicon.png">
-<link rel="stylesheet" href="http://cdn.bootcss.com/zui/1.8.1/css/zui.min.css">
-<link href="/css/style.css" rel="stylesheet">
-<link href="/css/media.css" rel="stylesheet">
-<link href="/css/font-awesome.min.css" rel="stylesheet">
+<html>
 
-  </head>
-  <body>
-    <!--[if lt IE 8]>
-    <div class="alert alert-danger">您正在使用 <strong>过时的</strong> 浏览器. 是时候 <a href="http://browsehappy.com/">更换一个更好的浏览器</a> 来提升用户体验.</div>
-    <![endif]-->
-    <!--自定义模式-->
-    <div class="customize-mode-tips">
-      <h4>自定义模式</h4>
-      <a href="javascript:;" class="customize">退出</a>
-    </div>
-    <!--头部导航条-->
-    <header>
-      
-<div class="main">
-<h1 class="logo">
-  <a href="/index.html">
-    <img src="/images/logo.png">
-    <span>小呆导航</span>
-  </a>
-</h1>
-<nav class="nav">
-  <ul>
-    <!--获取导航链接/从首页向下第一个栏目起/只显示nav栏目组-->
-    
-      <li><a href="/channels/42.html">教程资源</a></li>
-    
-      <li><a href="/channels/47.html">个人博客</a></li>
-    
-      <li><a href="/channels/48.html">在线留言</a></li>
-    
-      <li><a href="/channels/72.html">友情链接</a></li>
-    
-      <li><a href="/channels/76.html">关于本站</a></li>
-    
-  </ul>
-</nav>
-<div class="head-btn visible-lg">
-  <a href="javascript:;" class="sethome" data-toggle="tooltip" data-placement="bottom" title="设为首页" onclick="setHome(this,window.location);"><i class="fa fa-home"></i></a>
-  <a href="javascript:;" class="customize" data-toggle="tooltip" data-placement="bottom" title="自定义模式"><i class="fa fa-cog"></i></a>
-  <a href="javascript:;" class="theme" data-toggle="tooltip" data-placement="bottom" title="更换主题"><i class="fa fa-image"></i></a>
-  <a href="javascript:;" id="submit_URL" data-toggle="tooltip" data-placement="bottom" title="网址提交"><i class="fa fa-pencil-square-o"></i></a>
-</div>
-<button class="bar-btn visible-xs visible-sm">
-  <span class="icon-bar bar-line1"></span>
-  <span class="icon-bar bar-line2"></span>
-</button>
-<button class="nav-btn visible-xs visible-sm">
-  <span class="icon-line top"></span>
-  <span class="icon-line middle"></span>
-  <span class="icon-line bottom"></span>
-</button>
-</div>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<title>简约导航</title>
+	<meta name="viewport"
+		content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+	<meta content="telephone=no,email=no" name="format-detection">
+	<meta content="yes" name="apple-mobile-web-app-capable">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black">
+	<meta name="apple-touch-fullscreen" content="yes">
+	<meta name="keywords" content="简约导航">
+	<meta name="description" content="一个简单美观可自定义的网址导航">
+	<link rel="shortcut icon" href="favicon.ico">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/yidong.css">
+	<!-- 本项目开源地址：https://github.com/appexplore/jianavi 请勿完全抄袭源码，请勿声明自己是原创，开源版和运行的版本功能有差异，界面相同 -->
+</head>
 
-      <div class="not_operational"></div>
-    </header>
-    <div id="content" data-customize="true" data-CustomTheme="true" class="default-bg">
-      <!--导航条-->
-      <div class="mask"></div>
-      <div class="left-bar">
-        <div class="not_operational"></div>
-        <div class="header"><h2>导航目录</h2></div>
-        <nav class="menu" data-ride="menu">
-          <ul id="treeMenu" class="tree tree-menu" data-ride="tree">
-            
-              <li>
-                <a href="/web.html"><i class="fa fa-html5"></i>前端开发</a>
-                <ul>
-                  
-                    <li><a href="/web.html#row-1"><i class="fa fa-video-camera"></i>视频教程</a></li>
-                  
-                    <li><a href="/web.html#row-2"><i class="fa fa-book"></i>在线学习</a></li>
-                  
-                </ul>
-              </li>
-            
-              <li>
-                <a href="/ui.html"><i class="fa fa-dribbble"></i>界面设计</a>
-                <ul>
-                  
-                    <li><a href="/ui.html#row-1"><i class="fa fa-graduation-cap"></i>学习教程</a></li>
-                  
-                    <li><a href="/ui.html#row-2"><i class="fa fa-lightbulb-o"></i>灵感采集</a></li>
-                  
-                </ul>
-              </li>
-            
-              <li>
-                <a href="/cg.html"><i class="fa fa-youtube-play"></i>影视后期</a>
-                <ul>
-                  
-                    <li><a href="/cg.html#row-1"><i class="fa fa-graduation-cap"></i>学习教程</a></li>
-                  
-                    <li><a href="/cg.html#row-2"><i class="fa fa-magic"></i>特效动画</a></li>
-                  
-                </ul>
-              </li>
-            
-              <li>
-                <a href="/offlce.html"><i class="fa fa-keyboard-o"></i>日常办公</a>
-                <ul>
-                  
-                    <li><a href="/offlce.html#row-1"><i class="fa fa-fire"></i>热门推荐</a></li>
-                  
-                    <li><a href="/offlce.html#row-2"><i class="fa fa-dashboard"></i>效率资源</a></li>
-                  
-                </ul>
-              </li>
-            
-          </ul>
-        </nav>
-        <div class="menu-about">
-          <p>工作 / 学习 / 生活 / 网址导航</p>
-          <!--版权申明，请遵守MIT开源协议，勿删除-->
-          <p>Powered by <a href="http://webjike.com" target="_blank" style="color:#98c1ff">小呆导航</a></p>
-        </div>
-      </div>
-      <!--内容-->
-      <div class="main">
-        <div class="container mainContent">
-          
-<section class="sousuo">
-<div class="container">
-  <div class="row">
-    <div class="col-md-12">
-      <form class="sousuo-form" name="f" action="https://www.baidu.com/s" target="_blank">
-        <div id="Select">
-          <div class="Select-box hidden-xs">
-            <ul>
-              <li class="this_s">百 度</li>
-              <li class="baidu_s">百 度</li>
-              <li class="google_s">谷 歌</li>
-              <li class="bing_s">必 应</li>
-              <li class="haosou_s">好 搜</li>
-              <li class="sougou_s">搜 狗</li>
-            </ul>
-          </div>
-          <input type="text" name="wd" id="input" maxlength="100" autocomplete="off">
-          <div class="qingkong" id="qingkong" title="清空">x</div>
-        </div>
-        <button id="so-btn"><i class="icon icon-search visible-xs"></i><span class="hidden-xs">搜 索</span></button>
-      </form>
-    </div>
-  </div>
-</div>
-</section><!--搜索栏-->
-          <section class="linkList-item">
-            <div class="container-fluid">
-              <div class="row">
-                
-                  <div class="col-md-4 col-sm-6 i-link-box">
-                    <div class="row">
-                      <div class="col-xs-12"><strong class="link-list-tit" id="1">常用 · 工作</strong><input class="edit-category"></div>
-                      
-                      <div class="col-xs-4"><a href="http://data.weibo.com/datacenter/recommendapp" id="ctl00_92" class="link-list-a" target="_blank">微博指数</a><span class="bianji">编辑</span></div>
-                      
-                      <div class="col-xs-4"><a href="http://index.baidu.com/" id="ctl01_91" class="link-list-a" target="_blank">百度指数</a><span class="bianji">编辑</span></div>
-                      
-                      <div class="col-xs-4"><a href="http://pan.baidu.com/" id="ctl02_90" class="link-list-a" target="_blank">百度网盘</a><span class="bianji">编辑</span></div>
-                      
-                      <div class="col-xs-4"><a href="http://dict.youdao.com/" id="ctl03_89" class="link-list-a" target="_blank">有道词典</a><span class="bianji">编辑</span></div>
-                      
-                      <div class="col-xs-4"><a href="https://www.yinxiang.com/" id="ctl04_88" class="link-list-a" target="_blank">印象笔记</a><span class="bianji">编辑</span></div>
-                      
-                      <div class="col-xs-4"><a href="https://mail.qq.com/" id="ctl05_87" class="link-list-a" target="_blank">QQ邮箱</a><span class="bianji">编辑</span></div>
-                      
-                      <div class="col-xs-4"><a href="https://wx.qq.com/" id="ctl06_86" class="link-list-a" target="_blank">网页版微信</a><span class="bianji">编辑</span></div>
-                      
-                      <div class="col-xs-4"><a href="http://cn.bing.com/" id="ctl07_85" class="link-list-a" target="_blank">必应</a><span class="bianji">编辑</span></div>
-                      
-                      <div class="col-xs-4"><a href="https://www.baidu.com/" id="ctl08_84" class="link-list-a" target="_blank">百度</a><span class="bianji">编辑</span></div>
-                      
-                    </div>
-                  </div>
-                
-                  <div class="col-md-4 col-sm-6 i-link-box">
-                    <div class="row">
-                      <div class="col-xs-12"><strong class="link-list-tit" id="2">常用 · 社交</strong><input class="edit-category"></div>
-                      
-                      <div class="col-xs-4"><a href="http://www.guokr.com/" id="ctl00_101" class="link-list-a" target="_blank">果壳</a><span class="bianji">编辑</span></div>
-                      
-                      <div class="col-xs-4"><a href="http://www.tianya.cn/" id="ctl01_100" class="link-list-a" target="_blank">天涯社区</a><span class="bianji">编辑</span></div>
-                      
-                      <div class="col-xs-4"><a href="http://www.hupu.com/" id="ctl02_99" class="link-list-a" target="_blank">虎扑</a><span class="bianji">编辑</span></div>
-                      
-                      <div class="col-xs-4"><a href="https://www.douban.com/" id="ctl03_98" class="link-list-a" target="_blank">豆瓣</a><span class="bianji">编辑</span></div>
-                      
-                      <div class="col-xs-4"><a href="http://tieba.baidu.com/index.html" id="ctl04_97" class="link-list-a" target="_blank">百度贴吧</a><span class="bianji">编辑</span></div>
-                      
-                      <div class="col-xs-4"><a href="http://www.jianshu.com/" id="ctl05_96" class="link-list-a" target="_blank">简书</a><span class="bianji">编辑</span></div>
-                      
-                      <div class="col-xs-4"><a href="https://www.zhihu.com/" id="ctl06_95" class="link-list-a" target="_blank">知乎</a><span class="bianji">编辑</span></div>
-                      
-                      <div class="col-xs-4"><a href="http://qzone.qq.com/" id="ctl07_94" class="link-list-a" target="_blank">QQ空间</a><span class="bianji">编辑</span></div>
-                      
-                      <div class="col-xs-4"><a href="http://weibo.com/" id="ctl08_93" class="link-list-a" target="_blank">微博</a><span class="bianji">编辑</span></div>
-                      
-                    </div>
-                  </div>
-                
-                  <div class="col-md-4 col-sm-6 i-link-box">
-                    <div class="row">
-                      <div class="col-xs-12"><strong class="link-list-tit" id="3">常用 · 生活</strong><input class="edit-category"></div>
-                      
-                      <div class="col-xs-4"><a href="http://www.qyer.com/" id="ctl00_110" class="link-list-a" target="_blank">穷游</a><span class="bianji">编辑</span></div>
-                      
-                      <div class="col-xs-4"><a href="http://www.ctrip.com/" id="ctl01_109" class="link-list-a" target="_blank">携程</a><span class="bianji">编辑</span></div>
-                      
-                      <div class="col-xs-4"><a href="http://www.qunar.com/" id="ctl02_108" class="link-list-a" target="_blank">去哪儿</a><span class="bianji">编辑</span></div>
-                      
-                      <div class="col-xs-4"><a href="http://ganji.com/" id="ctl03_107" class="link-list-a" target="_blank">赶集网</a><span class="bianji">编辑</span></div>
-                      
-                      <div class="col-xs-4"><a href="http://58.com/" id="ctl04_106" class="link-list-a" target="_blank">58同城</a><span class="bianji">编辑</span></div>
-                      
-                      <div class="col-xs-4"><a href="https://www.ele.me/" id="ctl05_105" class="link-list-a" target="_blank">饿了么</a><span class="bianji">编辑</span></div>
-                      
-                      <div class="col-xs-4"><a href="https://nuomi.com/" id="ctl06_104" class="link-list-a" target="_blank">百度糯米</a><span class="bianji">编辑</span></div>
-                      
-                      <div class="col-xs-4"><a href="http://www.dianping.com/" id="ctl07_103" class="link-list-a" target="_blank">大众点评</a><span class="bianji">编辑</span></div>
-                      
-                      <div class="col-xs-4"><a href="http://gz.meituan.com/" id="ctl08_102" class="link-list-a" target="_blank">美团</a><span class="bianji">编辑</span></div>
-                      
-                    </div>
-                  </div>
-                
-                  <div class="col-md-4 col-sm-6 i-link-box">
-                    <div class="row">
-                      <div class="col-xs-12"><strong class="link-list-tit" id="4">视频 · 音乐</strong><input class="edit-category"></div>
-                      
-                      <div class="col-xs-4"><a href="http://www.yinyuetai.com/" id="ctl00_119" class="link-list-a" target="_blank">音悦台</a><span class="bianji">编辑</span></div>
-                      
-                      <div class="col-xs-4"><a href="http://www.xiami.com/" id="ctl01_118" class="link-list-a" target="_blank">虾米音乐</a><span class="bianji">编辑</span></div>
-                      
-                      <div class="col-xs-4"><a href="https://y.qq.com/" id="ctl02_117" class="link-list-a" target="_blank">QQ音乐</a><span class="bianji">编辑</span></div>
-                      
-                      <div class="col-xs-4"><a href="http://music.163.com/" id="ctl03_116" class="link-list-a" target="_blank">网易云音乐</a><span class="bianji">编辑</span></div>
-                      
-                      <div class="col-xs-4"><a href="http://www.le.com/" id="ctl04_115" class="link-list-a" target="_blank">乐视</a><span class="bianji">编辑</span></div>
-                      
-                      <div class="col-xs-4"><a href="https://v.qq.com/" id="ctl05_114" class="link-list-a" target="_blank">腾讯视频</a><span class="bianji">编辑</span></div>
-                      
-                      <div class="col-xs-4"><a href="http://tv.sohu.com/" id="ctl06_113" class="link-list-a" target="_blank">搜狐视频</a><span class="bianji">编辑</span></div>
-                      
-                      <div class="col-xs-4"><a href="http://www.iqiyi.com/" id="ctl07_112" class="link-list-a" target="_blank">爱奇艺</a><span class="bianji">编辑</span></div>
-                      
-                      <div class="col-xs-4"><a href="http://www.youku.com/" id="ctl08_111" class="link-list-a" target="_blank">优酷</a><span class="bianji">编辑</span></div>
-                      
-                    </div>
-                  </div>
-                
-                  <div class="col-md-4 col-sm-6 i-link-box">
-                    <div class="row">
-                      <div class="col-xs-12"><strong class="link-list-tit" id="6">消费 · 购物</strong><input class="edit-category"></div>
-                      
-                      <div class="col-xs-4"><a href="https://1688.com/" id="ctl00_128" class="link-list-a" target="_blank">1688</a><span class="bianji">编辑</span></div>
-                      
-                      <div class="col-xs-4"><a href="http://www.mi.com/" id="ctl01_127" class="link-list-a" target="_blank">小米网</a><span class="bianji">编辑</span></div>
-                      
-                      <div class="col-xs-4"><a href="http://www.yhd.com/" id="ctl02_126" class="link-list-a" target="_blank">一号店</a><span class="bianji">编辑</span></div>
-                      
-                      <div class="col-xs-4"><a href="http://www.vip.com/" id="ctl03_125" class="link-list-a" target="_blank">唯品会</a><span class="bianji">编辑</span></div>
-                      
-                      <div class="col-xs-4"><a href="http://www.dangdang.com/" id="ctl04_124" class="link-list-a" target="_blank">当当</a><span class="bianji">编辑</span></div>
-                      
-                      <div class="col-xs-4"><a href="http://z.cn/" id="ctl05_123" class="link-list-a" target="_blank">亚马逊</a><span class="bianji">编辑</span></div>
-                      
-                      <div class="col-xs-4"><a href="https://www.jd.com/" id="ctl06_122" class="link-list-a" target="_blank">京东</a><span class="bianji">编辑</span></div>
-                      
-                      <div class="col-xs-4"><a href="https://www.tmall.com/" id="ctl07_121" class="link-list-a" target="_blank">天猫</a><span class="bianji">编辑</span></div>
-                      
-                      <div class="col-xs-4"><a href="https://www.taobao.com/" id="ctl08_120" class="link-list-a" target="_blank">淘宝</a><span class="bianji">编辑</span></div>
-                      
-                    </div>
-                  </div>
-                
-                  <div class="col-md-4 col-sm-6 i-link-box">
-                    <div class="row">
-                      <div class="col-xs-12"><strong class="link-list-tit" id="6">资讯 · 新闻</strong><input class="edit-category"></div>
-                      
-                      <div class="col-xs-4"><a href="http://www.qdaily.com/" id="ctl00_137" class="link-list-a" target="_blank">好奇日报</a><span class="bianji">编辑</span></div>
-                      
-                      <div class="col-xs-4"><a href="http://www.tiexue.net/" id="ctl01_136" class="link-list-a" target="_blank">铁血网</a><span class="bianji">编辑</span></div>
-                      
-                      <div class="col-xs-4"><a href="http://www.autohome.com.cn/" id="ctl02_135" class="link-list-a" target="_blank">汽车之家</a><span class="bianji">编辑</span></div>
-                      
-                      <div class="col-xs-4"><a href="http://www.people.com.cn/" id="ctl03_134" class="link-list-a" target="_blank">人民网</a><span class="bianji">编辑</span></div>
-                      
-                      <div class="col-xs-4"><a href="http://www.sohu.com/" id="ctl04_133" class="link-list-a" target="_blank">搜狐</a><span class="bianji">编辑</span></div>
-                      
-                      <div class="col-xs-4"><a href="http://www.163.com/" id="ctl05_132" class="link-list-a" target="_blank">网易</a><span class="bianji">编辑</span></div>
-                      
-                      <div class="col-xs-4"><a href="http://news.baidu.com/" id="ctl06_131" class="link-list-a" target="_blank">百度新闻</a><span class="bianji">编辑</span></div>
-                      
-                      <div class="col-xs-4"><a href="http://news.qq.com/" id="ctl07_130" class="link-list-a" target="_blank">腾讯</a><span class="bianji">编辑</span></div>
-                      
-                      <div class="col-xs-4"><a href="http://www.sina.com.cn/" id="ctl08_129" class="link-list-a" target="_blank">新浪</a><span class="bianji">编辑</span></div>
-                      
-                    </div>
-                  </div>
-                
-                  <div class="col-md-4 col-sm-6 i-link-box">
-                    <div class="row">
-                      <div class="col-xs-12"><strong class="link-list-tit" id="7">工作 · 求职</strong><input class="edit-category"></div>
-                      
-                      <div class="col-xs-4"><a href="https://www.51job.com/" id="ctl00_146" class="link-list-a" target="_blank">前程无忧</a><span class="bianji">编辑</span></div>
-                      
-                      <div class="col-xs-4"><a href="http://www.zhaopin.com/" id="ctl01_145" class="link-list-a" target="_blank">智联招聘</a><span class="bianji">编辑</span></div>
-                      
-                      <div class="col-xs-4"><a href="http://cv.qiaobutang.com/" id="ctl02_144" class="link-list-a" target="_blank">乔布堂</a><span class="bianji">编辑</span></div>
-                      
-                      <div class="col-xs-4"><a href="https://www.jianzhimao.com/" id="ctl03_143" class="link-list-a" target="_blank">兼职猫</a><span class="bianji">编辑</span></div>
-                      
-                      <div class="col-xs-4"><a href="http://job.csdn.net/" id="ctl04_142" class="link-list-a" target="_blank">庞果网</a><span class="bianji">编辑</span></div>
-                      
-                      <div class="col-xs-4"><a href="http://www.neitui.me/" id="ctl05_141" class="link-list-a" target="_blank">内推网</a><span class="bianji">编辑</span></div>
-                      
-                      <div class="col-xs-4"><a href="https://www.dajie.com/" id="ctl06_140" class="link-list-a" target="_blank">大街</a><span class="bianji">编辑</span></div>
-                      
-                      <div class="col-xs-4"><a href="https://www.liepin.com/" id="ctl07_139" class="link-list-a" target="_blank">猎聘</a><span class="bianji">编辑</span></div>
-                      
-                      <div class="col-xs-4"><a href="https://www.lagou.com/" id="ctl08_138" class="link-list-a" target="_blank">拉勾</a><span class="bianji">编辑</span></div>
-                      
-                    </div>
-                  </div>
-                
-                  <div class="col-md-4 col-sm-6 i-link-box">
-                    <div class="row">
-                      <div class="col-xs-12"><strong class="link-list-tit" id="8">娱乐 · 游戏</strong><input class="edit-category"></div>
-                      
-                      <div class="col-xs-4"><a href="http://bbs.ngacn.cc/" id="ctl00_155" class="link-list-a" target="_blank">NGA</a><span class="bianji">编辑</span></div>
-                      
-                      <div class="col-xs-4"><a href="http://www.3dmgame.com/" id="ctl01_154" class="link-list-a" target="_blank">3DM</a><span class="bianji">编辑</span></div>
-                      
-                      <div class="col-xs-4"><a href="http://www.gamersky.com/" id="ctl02_153" class="link-list-a" target="_blank">游民星空</a><span class="bianji">编辑</span></div>
-                      
-                      <div class="col-xs-4"><a href="http://www.52pk.com/" id="ctl03_152" class="link-list-a" target="_blank">52pk</a><span class="bianji">编辑</span></div>
-                      
-                      <div class="col-xs-4"><a href="http://www.178.com/" id="ctl04_151" class="link-list-a" target="_blank">178</a><span class="bianji">编辑</span></div>
-                      
-                      <div class="col-xs-4"><a href="http://www.4399.com/" id="ctl05_150" class="link-list-a" target="_blank">4399</a><span class="bianji">编辑</span></div>
-                      
-                      <div class="col-xs-4"><a href="http://www.tgbus.com/" id="ctl06_149" class="link-list-a" target="_blank">电玩巴士</a><span class="bianji">编辑</span></div>
-                      
-                      <div class="col-xs-4"><a href="https://www.17173.com/" id="ctl07_148" class="link-list-a" target="_blank">17173</a><span class="bianji">编辑</span></div>
-                      
-                      <div class="col-xs-4"><a href="http://www.duowan.com/" id="ctl08_147" class="link-list-a" target="_blank">多玩</a><span class="bianji">编辑</span></div>
-                      
-                    </div>
-                  </div>
-                
-                  <div class="col-md-4 col-sm-6 i-link-box">
-                    <div class="row">
-                      <div class="col-xs-12"><strong class="link-list-tit" id="9">金融 · 银行</strong><input class="edit-category"></div>
-                      
-                      <div class="col-xs-4"><a href="http://bank.pingan.com/" id="ctl00_164" class="link-list-a" target="_blank">平安银行</a><span class="bianji">编辑</span></div>
-                      
-                      <div class="col-xs-4"><a href="http://www.cmbc.com.cn/" id="ctl01_163" class="link-list-a" target="_blank">民生银行</a><span class="bianji">编辑</span></div>
-                      
-                      <div class="col-xs-4"><a href="http://www.cgbchina.com.cn/" id="ctl02_162" class="link-list-a" target="_blank">广发银行</a><span class="bianji">编辑</span></div>
-                      
-                      <div class="col-xs-4"><a href="http://www.bankcomm.com/BankCommSite/default.shtml" id="ctl03_161" class="link-list-a" target="_blank">交通银行</a><span class="bianji">编辑</span></div>
-                      
-                      <div class="col-xs-4"><a href="http://www.boc.cn/" id="ctl04_160" class="link-list-a" target="_blank">中国银行</a><span class="bianji">编辑</span></div>
-                      
-                      <div class="col-xs-4"><a href="http://www.abchina.com/cn/" id="ctl05_159" class="link-list-a" target="_blank">农业银行</a><span class="bianji">编辑</span></div>
-                      
-                      <div class="col-xs-4"><a href="http://www.ccb.com/cn/home/indexv3.html" id="ctl06_158" class="link-list-a" target="_blank">建设银行</a><span class="bianji">编辑</span></div>
-                      
-                      <div class="col-xs-4"><a href="http://www.icbc.com.cn/icbc/" id="ctl07_157" class="link-list-a" target="_blank">工商银行</a><span class="bianji">编辑</span></div>
-                      
-                      <div class="col-xs-4"><a href="http://www.cmbchina.com/" id="ctl08_156" class="link-list-a" target="_blank">招商银行</a><span class="bianji">编辑</span></div>
-                      
-                    </div>
-                  </div>
-                
-              </div>
-            </div>
-          </section>
-        </div>
-        <!-- 对话框HTML -->
-        <div class="modal fade" id="myModal">
-          <div class="modal-dialog">
-            <div class="modal-content">
-              <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">×</span><span class="sr-only">关闭</span></button>
-                <h4 class="modal-title">自定义链接</h4>
-              </div>
-              <div class="modal-body">
-                <div class="input-control has-icon-left">
-                  <input id="inputAccountExample1" type="text" class="form-control" placeholder="网址名称">
-                  <label for="inputAccountExample1" class="input-control-icon-left"><i class="icon icon-header"></i></label>
-                </div>
-                <div class="input-control has-icon-left" style="margin-top: 15px">
-                  <input id="inputAccountExample2" type="text" class="form-control" placeholder="请输入网址，注意网址前面要加上http://">
-                  <label for="inputAccountExample1" class="input-control-icon-left"><i class="icon icon-link"></i></label>
-                </div>
-                <div class="modal-text">
-                  <p class="text-red">网址书写格式：http://xxx.com，网址前面一定要加上 “ http:// ” 前缀。</p>
-                  <p>tips：自定义链接的数据是储存在浏览器本地缓存上，清空浏览数据（Cookie及其他网站数据）后会导致自定义的数据丢失，所以清理浏览数据的时候切勿选中（Cookie及其他网站数据）选项。</p>
-                </div>
-              </div>
-              <div class="modal-footer">
-                <button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
-                <button type="button" class="btn btn-primary" data-dismiss="modal">保存</button>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div><!--内容区域-->
-      <!--主题面板-->
-      <div class="theme-panel">
-        <div class="theme-panel-bg">
-          <div class="theme-panel-header">
-            <div class="theme-panel-type pull-left">选择皮肤</div>
-            <div class="dialog-control pull-right"><i class="fa fa-close" id="cancel-x"></i></div>
-          </div>
-          <div class="theme-panel-content">
-            <ul>
-              <li class="active" data-bgid="default-bg">
-                <img src="/images/default-bg.png">
-                <p>默认主题</p>
-               <i class="fa fa-check-circle-o"></i> 
-              </li>
-              <li data-bgid="bg1">
-                <img src="/images/bg1-bg.png">
-                <p>山峰</p>
-                <i class="fa fa-check-circle-o"></i>
-              </li>
-              <li data-bgid="bg2">
-                <img src="/images/bg2-bg.png">
-                <p>璀璨星空</p>
-                <i class="fa fa-check-circle-o"></i> 
-              </li>
-              <li data-bgid="bg3">
-                <img src="/images/bg3-bg.jpg">
-                <p>暖色街道</p>
-                <i class="fa fa-check-circle-o"></i>
-              </li>
-              <li data-bgid="bg4">
-                <img src="/images/bg4-bg.jpg">
-                <p>幽静森林</p>
-                <i class="fa fa-check-circle-o"></i>
-              </li>
-              <li data-bgid="bg5">
-                <img src="/images/bg5-bg.jpg">
-                <p>日落</p>
-                <i class="fa fa-check-circle-o"></i>
-              </li>
-              <li data-bgid="bg6">
-                <img src="/images/bg6-bg.png">
-                <p>秋色野外</p>
-                <i class="fa fa-check-circle-o"></i>
-              </li>
-              <li data-bgid="bg7">
-                <img src="/images/bg7-bg.png">
-                <p>绿色植物</p>
-                <i class="fa fa-check-circle-o"></i>
-              </li>
-            </ul>
-          </div>
-        </div>
-        <div class="theme-panel-muen">
-          <button class="btn btn-primary btn-lg" type="button" id="okay">保存</button>
-          <button class="btn btn-lg" type="button" id="cancel">取消</button>
-        </div>
-      </div>
-    </div>
-    <div id="get-top" title="回到顶部"><i class="icon icon-arrow-up"></i></div>
-    <script src="https://s11.cnzz.com/z_stat.php?id=1261855216&web_id=1261855216" language="JavaScript"></script>
-    <!--[if lt IE 9]>
-    <script src="dist/lib/ieonly/html5shiv.js"></script>
-    <script src="dist/lib/ieonly/respond.js"></script>
-    <![endif]-->
-    <!-- jQuery (ZUI中的Javascript组件依赖于jQuery) -->
-    <script src="//cdnjs.cloudflare.com/ajax/libs/zui/1.8.1/lib/jquery/jquery.js"></script>
-    <!-- ZUI Javascript组件 -->
-    <script src="/dist/js/zui.js"></script>
-    <script src="/layer/layer.js"></script>
-    <script src="/js/js.js?v=6.2.4"></script>
-  </body>
+<body>
+	<!-- 自定义按钮start -->
+	<div class="zdy_button" onclick="zyd_show();">
+		<img src="img/cl.ico">
+	</div>
+	<!-- 自定义按钮end -->
+
+	<!-- 自定义弹窗start -->
+	<div class="zdy">
+		<div class="zdy_content">
+			<div class="zdy_top">
+				<span class="zdy_edit"></span>自定义链接
+				<span class="zdy_close" onclick="zdy_close();"></span>
+			</div>
+			<div class="zdy_mi">
+				<div class="z_m_i">
+					<span class="z_i_img_1"></span>
+					<input type="text" class="zdy_input zdy_name" placeholder="微博">
+				</div>
+				<div class="z_m_i">
+					<span class="z_i_img_2"></span>
+					<input type="text" class="zdy_input zdy_link" placeholder="http://www.weibo.com/">
+				</div>
+				<div>
+					<font size="2" color="gray">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;请注意：数据是临时存储在本地电脑上，数据丢失无法找回</font>
+				</div>
+			</div>
+			<div class="zdy_foot">
+				<div class="zdy_false zdy_b" onclick="zdy_false();">取消</div>
+				<div class="zdy_true zdy_b" onclick="zdy_true();">确定</div>
+			</div>
+		</div>
+	</div>
+	<!-- 自定义弹窗end -->
+
+	<!-- 搜索栏start -->
+	<div class="baidu baidu-2">
+		<!--<form name="f" action="https://www.baidu.com/s" target="_blank"> -->
+			<form name="f" action="https://www.jianavi.com/baidu" target="_blank">
+			<div class="Select-box-2" id="baidu">
+				<ul>
+					<li class="this_s">百 度</li>
+					<li class="miji_s">duck</li>
+					<li class="bing_s">必 应</li>
+					<li class="google_s">谷 歌</li>
+					<li class="baidu_s">百 度</li>
+					<li class="ff_s">F 搜</li>
+				</ul>
+			</div>
+			<div class="in5">
+				<input name="wd" id="kw-2" maxlength="100" autocomplete="off" type="text">
+				<div class="qingkong" id="qingkong" title="清空">x</div>
+			</div>
+			<input value="搜 索" id="su-2" type="submit">
+		</form>
+		<ul class="keylist"></ul>
+	</div>
+	<!-- 搜索栏end -->
+
+	<!-- 内容start -->
+	<div class="body">
+		<div class="content">
+			<div class="jianjie">
+				<div class="jj-list">
+					<div class="jj-list-tit">学习 · 生活</div>
+					<ul class="jj-list-con _b">
+						<li><a href="https://www.taobao.com/" class="link-3" target="_blank" rel="nofollow">淘宝</a></li>
+						<li><a href="https://www.jd.com/" class="link-3" target="_blank" rel="nofollow">京东</a></li>
+						<li><a href="https://www.smzdm.com/" class="link-3" target="_blank" rel="nofollow">什么值得买</a></li>	
+						<li><a href="https://guiderank-app.com/ranking" class="link-3" target="_blank" rel="nofollow">盖得排行</a></li>
+						<li><a href="http://www.hao123.com/bank" class="link-3" target="_blank" rel="nofollow">银行</a></li>
+						<li><a href="https://www.amap.com/" class="link-3" target="_blank" rel="nofollow">地图</a></li>
+						<li><a href="https://fanyi.baidu.com/" class="link-3" target="_blank" rel="nofollow">翻译</a></li>
+						<li><a href="http://www.hao123.com/mail" class="link-3" target="_blank" rel="nofollow">邮箱</a></li>	
+						<li><a href="https://www.icourse163.org/" class="link-3" target="_blank" rel="nofollow">MOOC</a></li>
+					</ul>
+				</div>
+				<div class="jj-list">
+					<div class="jj-list-tit">常用 · 社区</div>
+					<ul class="jj-list-con _b">
+						<li><a href="https://wx.qq.com/" class="link-3" target="_blank" rel="nofollow">微信</a></li>
+						<li><a href="https://weibo.com/" class="link-3" target="_blank" rel="nofollow">微博</a></li>
+						<li><a href="https://www.zhihu.com/" class="link-3" target="_blank" rel="nofollow">知乎</a></li>
+						<li><a href="https://tieba.baidu.com/" class="link-3" target="_blank" rel="nofollow">贴吧</a></li>
+						<li><a href="http://www.soomal.com/" class="link-3" target="_blank" rel="nofollow">Soomal</a></li>
+						<li><a href="https://topbook.cc/overview" class="link-3" target="_blank" rel="nofollow">Topbook</a></li>
+						<li><a href="https://github.com/" class="link-3" target="_blank" rel="nofollow">GitHub</a></li>
+						<li><a href="https://www.douban.com/" class="link-3" target="_blank" rel="nofollow">豆瓣</a></li>
+						<li><a href="https://www.v2ex.com/" class="link-3" target="_blank" rel="nofollow">V2EX</a></li>
+					</ul>
+				</div>
+				<div class="jj-list">
+					<div class="jj-list-tit">影音 · 娱乐</div>
+					<ul class="jj-list-con _b">
+						<li><a href="https://www.iqiyi.com/" class="link-3" target="_blank" rel="nofollow">爱奇艺</a></li>
+						<li><a href="https://v.qq.com/" class="link-3" target="_blank" rel="nofollow">腾讯视频</a></li>
+						<li><a href="https://www.bilibili.com/" class="link-3" target="_blank" rel="nofollow">哔哩哔哩</a></li>
+						<li><a href="https://www.mgtv.com/" class="link-3" target="_blank" rel="nofollow">芒果TV</a></li>
+						<li><a href="https://www.youku.com/" class="link-3" target="_blank" rel="nofollow">优酷</a></li>
+						<li><a href="https://y.qq.com/" class="link-3" target="_blank" rel="nofollow">QQ音乐</a></li>
+						<li><a href="http://www.tvyan.com/" class="link-3" target="_blank" rel="nofollow">电视直播</a></li>
+						<li><a href="https://dianyi.ng/" class="link-3" target="_blank" rel="nofollow">电影先生</a></li>
+						<li><a href="https://ddys.pro/" class="link-3" target="_blank" rel="nofollow">低端影视</a></li>					
+					</ul>
+				</div>
+				<div class="jj-list">
+					<div class="jj-list-tit">发现 · 世界</div>
+					<ul class="jj-list-con _b">
+						<li><a href="https://news.ifeng.com/" class="link-3" target="_blank" rel="nofollow">凤凰资讯</a></li>
+						<li><a href="https://ef.zhiweidata.com/" class="link-3" target="_blank" rel="nofollow">知微事见</a></li>
+                        <li><a href="https://cn.investing.com/" class="link-3" target="_blank" rel="nofollow">英为财情</a>
+						<li><a href="https://sspai.com/" class="link-3" target="_blank" rel="nofollow">少数派</a></li>
+						<li><a href="https://jandan.net/" class="link-3" target="_blank" rel="nofollow">煎蛋</a></li>
+						<li><a href="https://www.tishi.top/?invite=3gKRJj" class="link-3" target="_blank" rel="nofollow">AI工具集</a></li>																						
+						<li><a href="https://youquhome.com/" class="link-3" target="_blank" rel="nofollow">有趣网址</a></li>
+						<li><a href="https://ac.scmor.com/" class="link-3" target="_blank" rel="nofollow">思谋学术</a></li>
+						<li><a href="https://www.toolai.io/zh/" class="link-3" target="_blank" rel="nofollow">ToolAI</a></li>
+						</li>
+					</ul>
+				</div>
+				<div class="jj-list">
+					<div class="jj-list-tit">在线 · 工具</div>
+					<ul class="jj-list-con _b">
+						<li><a href="https://www.photopea.com/" class="link-3" target="_blank" rel="nofollow">在线PS</a></li>
+						<li><a href="https://privatebin.net/" class="link-3" target="_blank" rel="nofollow">阅后即焚</a></li>
+						<li><a href="https://www.mmhtml.com/zh/" class="link-3" target="_blank" rel="nofollow">文库下载</a></li>
+						<li><a href="https://cli.im/" class="link-3" target="_blank" rel="nofollow">二维码</a></li>
+						<li><a href="https://send.portailpro.net/" class="link-3" target="_blank" rel="nofollow">收发文件</a></li>
+						<li><a href="https://www.storytrain.info/" class="link-3" target="_blank" rel="nofollow">临时短信</a></li>
+						<li><a href="https://convertio.co/zh/" class="link-3" target="_blank" rel="nofollow">格式转换</a></li>
+						<li><a href="https://weibomiaopai.com/" class="link-3" target="_blank" rel="nofollow">视频下载</a></li>
+						<li><a href="https://daga.cc/yue/" class="link-3" target="_blank" rel="nofollow">音乐下载</a></li>
+					</ul>
+				</div>
+				<div class="jj-list">
+					<div class="jj-list-tit">搜索 · 资源</div>
+					<ul class="jj-list-con _b">
+						<li><a href="https://www.725998.com/" class="link-3" target="_blank" rel="nofollow">茶杯虎</a></li>
+						<li><a href="https://www.dy2018.com/" class="link-3" target="_blank" rel="nofollow">电影天堂</a></li>
+						<li><a href="https://www.soukuzhan.com/" class="link-3" target="_blank" rel="nofollow">搜酷站</a></li>
+						<li><a href="https://tools.miku.ac/" class="link-3" target="_blank" rel="nofollow">MikuTools</a></li>
+						<li><a href="https://www.coolist.net/windows/" class="link-3" target="_blank" rel="nofollow">酷软清单</a></li>
+						<li><a href="https://www.ghxi.com/" class="link-3" target="_blank" rel="nofollow">果核剥壳</a></li>
+						<li><a href="https://www.jiumodiary.com/" class="link-3" target="_blank" rel="nofollow">电子书</a></li>
+						<li><a href="https://pixabay.com/zh/photos/" class="link-3" target="_blank" rel="nofollow">图片素材</a></li>
+						<li><a href="https://bookfere.com/" class="link-3" target="_blank" rel="nofollow">书伴</a></li>
+					</ul>
+				</div>
+				<!-- 自定义按钮start -->
+				<div class="jj-list zdy_list" style="display: none;">
+					<div class="jj-list-tit">自定义</div>
+					<ul class="jj-list-con zdy_li">
+					</ul>
+				</div>
+				<!-- 自定义按钮end -->
+			</div>
+			<!-- 内容end -->
+
+			<!-- 底部版权start -->
+			<!-- 开源不易，请勿去除下方版权信息 -->
+			<!-- 如果您想修改下方版权信息，请打赏并留言您的网址 >> https://afdian.net/@appts -->
+			
+			<div class="footer1">Copyright © 2024
+				<a href="https://www.coolist.net/" style="color:#ffffff;" target="_blank" rel="nofollow">软件探索 </a> 
+				<a href="https://txc.qq.com/products/93263" style="color:#ffffff;" target="_blank" rel="nofollow">反馈 </a> 
+			</div>
+		</div>
+
+			<div class="footer">Copyright © 2024
+				<a href="https://www.coolist.net/" style="color:#ffffff;" target="_blank" rel="nofollow">软件探索 </a>
+				<a href="https://txc.qq.com/products/93263" style="color:#ffffff;" target="_blank" rel="nofollow">反馈 </a>  
+			</div>
+		<!-- 底部版权end -->
+	</div>
+
+	<script type="text/javascript"
+		src="https://cdn.bootcdn.net/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+		<script type="text/javascript" src="js/js.js?v=3"></script>
+</body>
+
 </html>
